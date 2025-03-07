@@ -26,7 +26,7 @@ public class Word
     {
         if (_hidden == true)
         {
-            return "___";
+            return new String('_', _word.Length);
         }
 
         return _word;
